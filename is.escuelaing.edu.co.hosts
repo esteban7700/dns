@@ -1,0 +1,10 @@
+;
+; /etc/DNS/is.escuelaing.edu.co.hosts file
+$INCLUDE named-is.soa
+
+is.escuelaing.edu.co.	IN	NS	zafiro.is.escuelaing.edu.co.
+
+zafiro.is.escuelaing.edu.co.	IN	AAAA	2001:db8:1::1
+granate.is.escuelaing.edu.co.	IN	AAAA	2001:db8:1::99
+azabache.is.escuelaing.edu.co.	IN	AAAA	2001:db8:1::60
+
